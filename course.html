@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="bistro bar two Kの特別なコースメニュー。熟練シェフこだわりの西洋創作フルコースや、大人数でのパーティーに最適な飲み放題付きビュッフェプランをご案内いたします。">
+  <title>コースメニュー | bistro bar two K</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header / Navigation
+       ========================================================================== -->
+  <header id="site-header" class="scrolled">
+    <div class="container header-container">
+      <a href="index.html#home" class="logo-link" id="course-logo-link">
+        <img src="img/ロゴ.jpg" alt="bistro bar two K ロゴ" class="logo-img">
+      </a>
+
+      <!-- Hamburger Menu for Mobile -->
+      <button class="hamburger" id="mobile-menu-toggle" aria-label="メニューを開く">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <ul class="nav-menu" id="nav-menu-list">
+        <li><a href="index.html#home" class="nav-link" id="link-home">HOME</a></li>
+        <li><a href="index.html#concept" class="nav-link" id="link-concept">CONCEPT</a></li>
+        <li><a href="index.html#points" class="nav-link" id="link-points">FEATURES</a></li>
+        <li><a href="#" class="nav-link active-link" id="link-course">COURSE Menu</a></li>
+        <li><a href="index.html#charter" class="nav-link" id="link-charter">CHARTER</a></li>
+        <li><a href="index.html#gallery" class="nav-link" id="link-gallery">GALLERY</a></li>
+        <li><a href="index.html#info" class="nav-link" id="link-info">ACCESS & INFO</a></li>
+        <li class="nav-insta">
+          <a href="https://www.instagram.com/bistro.bar.two.k/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg class="insta-icon" viewBox="0 0 24 24" width="20" height="20">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>
+        </li>
+        <li class="nav-cta"><a href="index.html#contact" class="btn btn-nav" id="link-contact">RESERVE</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Course Hero / Banner Section
+       ========================================================================== -->
+  <section class="course-hero">
+    <div class="container course-hero-content">
+      <p>BISTRO BAR TWO K PRESENTS</p>
+      <h1>COURSE MENU</h1>
+      <p style="color: var(--text-white-muted); font-size: 0.95rem; margin-top: 1rem; text-transform: none; letter-spacing: 0.05em;">
+        特別な日やパーティーを演出する、シェフ特製の厳選コースプラン。
+      </p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Course Plans List Section
+       ========================================================================== -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Key Booking Notice Banner -->
+      <div class="course-notice" style="max-width: 900px; margin: 0 auto 5rem; padding: 2rem; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); text-align: center;">
+        <h2 style="font-size: 1.4rem; margin-bottom: 0.8rem; text-align: center; color: var(--burgundy); font-family: var(--font-sans);">⚠️ コース予約に関するご案内</h2>
+        <p style="margin: 0; font-size: 1rem; color: var(--text-dark); font-weight: 500; line-height: 1.6;">
+          コース料理は食材の仕入れと丁寧な仕込みを行うため、<br>
+          <strong style="color: var(--burgundy); font-size: 1.15rem;">【前日までの完全予約制】</strong>とさせていただいております。<br>
+          ご予約はお電話、またはお問い合わせフォームよりお願いいたします。
+        </p>
+      </div>
+
+      <div class="courses-list-grid" style="max-width: 900px; margin: 0 auto;">
+        
+        <!-- Dinner Course Card -->
+        <div class="course-item-card">
+          <div class="course-item-img-container">
+            <img src="img/menu2.png" alt="ディナーコース" class="course-item-img">
+          </div>
+          <div class="course-item-details">
+            <div class="course-item-title-row">
+              <h3>ディナーコース</h3>
+              <span class="course-item-price">¥5,500 <span style="font-size: 0.8rem; color: var(--text-light);">/ 名(税込)〜</span></span>
+            </div>
+            <p style="font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--text-medium);">
+              予約制（2名様〜）。熟練シェフこだわりの創作西洋料理に、最初から贅沢な「90分飲み放題」があらかじめセットになった当店一押しのディナーコースです。
+            </p>
+            
+            <h4 style="font-size: 0.95rem; color: var(--burgundy); margin-bottom: 0.8rem; border-bottom: 1px dashed var(--amber-trans); padding-bottom: 0.4rem; font-weight: 700;">【お食事＊例】</h4>
+            <ul class="course-item-menu" style="margin-bottom: 1.5rem; gap: 0.8rem;">
+              <li>前菜盛り合わせ</li>
+              <li>本日のピッツァ</li>
+              <li>本日のパスタ</li>
+              <li>ローストポーク</li>
+              <li>デザート</li>
+            </ul>
+            
+            <div class="course-item-footer" style="border-top: 1px dashed var(--amber-trans); padding-top: 1.2rem; margin-top: auto;">
+              <span style="font-weight: 700; color: var(--burgundy); font-size: 0.85rem; display: block; margin-bottom: 0.6rem;">※ 90分飲み放題付き（ラストオーダー15分前）</span>
+              <span style="font-weight: 500; color: var(--text-medium); font-size: 0.85rem; display: block; margin-bottom: 1.5rem; line-height: 1.55;">
+                ※ 6,600円(税込)コースは上記料理に<strong style="color: var(--burgundy);">「魚料理」が追加</strong>、メインのローストポークが<strong style="color: var(--burgundy);">「牛タンシチュー」</strong>になります。
+              </span>
+              <a href="index.html#contact" class="btn btn-primary btn-sm" style="padding: 0.7rem 1.5rem; font-size: 0.85rem;">このコースを予約する</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Premium All-You-Can-Drink Menu Section -->
+      <div class="drink-menu-section">
+        <div class="drink-menu-header">
+          <h3>FREE DRINK MENU</h3>
+          <p>ディナーコースに含まれる贅沢な90分飲み放題メニュー</p>
+        </div>
+        
+        <div class="drink-menu-grid">
+          <!-- Beer Card -->
+          <div class="drink-category-card">
+            <h4>Beer</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>サッポロ赤星 (瓶)</strong>
+                <span class="drink-subtext">伝統が磨き上げた、しっかりとしたコクと味わい。</span>
+              </li>
+              <li>
+                <strong>サントリー プレミアムモルツ (生)</strong>
+                <span class="drink-subtext">華やかな香りと深いコクのプレミアム生ビール。</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Wine Card -->
+          <div class="drink-category-card">
+            <h4>Wine</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>スパークリングワイン</strong>
+                <span class="drink-subtext">特別なディナーの始まりを華やかに演出します。</span>
+              </li>
+              <li>
+                <strong>ハウスワイン (赤・白)</strong>
+                <span class="drink-subtext">お料理の味を引き立てる、厳選されたハウスワイン。</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Whisky Card -->
+          <div class="drink-category-card">
+            <h4>Whisky</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>ハウスウイスキー各種</strong>
+                <span class="drink-subtext">
+                  ・角瓶<br>
+                  ・ブラックニッカ<br>
+                  ・ティーチャーズ<br>
+                  ・ジムビーム<br>
+                  ・ジェムソン<br>
+                  ・カナディアンクラブ
+                </span>
+                <span class="drink-subtext" style="margin-top: 0.4rem; font-style: italic;">※ロック、水割り、ソーダ割り（ハイボール）等お好みの飲み方で。</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Spirits & Cocktails Card -->
+          <div class="drink-category-card">
+            <h4>Spirits & Campari</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>ジン・ラム・ウォッカ・テキーラ・カンパリ</strong>
+                <span class="drink-subtext" style="margin-top: 0.4rem;">
+                  【割り方をお選びいただけます】<br>
+                  ・トニックウォーター割り<br>
+                  ・ソーダ割り<br>
+                  ・ジンジャエール割り
+                </span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Shochu & Umeshu Card -->
+          <div class="drink-category-card">
+            <h4>Japanese Spirits</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>麦焼酎</strong>
+                <span class="drink-subtext">すっきりとした味わいと豊かな麦の風味。</span>
+              </li>
+              <li>
+                <strong>芋焼酎</strong>
+                <span class="drink-subtext">ふくよかな香りと深い甘みが楽しめる芋焼酎。</span>
+              </li>
+              <li>
+                <strong>梅酒</strong>
+                <span class="drink-subtext">芳醇な梅の香りと程よい甘酸っぱさが人気。</span>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Non-Alcoholic Card -->
+          <div class="drink-category-card">
+            <h4>Non-Alcoholic</h4>
+            <ul class="drink-list">
+              <li>
+                <strong>ノンアルコールレモンビール</strong>
+                <span class="drink-subtext">すっきり爽やかなレモンの風味が食事によく合います。</span>
+              </li>
+              <li>
+                <strong>ソフトドリンク各種</strong>
+                <span class="drink-subtext">
+                  ・ウーロン茶<br>
+                  ・コーラ<br>
+                  ・ジンジャエール<br>
+                  ・カルピス
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Reservation CTA Banner -->
+      <div style="text-align: center; margin-top: 6rem;">
+        <p style="margin-bottom: 1.5rem; font-size: 1.05rem; font-weight: 400; color: var(--text-medium);">
+          お気軽にお電話またはフォームよりご相談ください。
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+          <a href="tel:06-4304-4899" class="btn btn-primary" style="font-size: 1.05rem; padding: 1rem 2.5rem; font-family: var(--font-serif); font-weight: 700;">📞 06-4304-4899</a>
+          <a href="index.html#contact" class="btn btn-amber" style="font-size: 1.05rem; padding: 1rem 2.5rem;">予約・お問い合わせフォームへ</a>
+        </div>
+        <div style="margin-top: 2rem;">
+          <a href="index.html#home" class="insta-link" style="font-size: 0.95rem;">← ホームに戻る</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer>
+    <div class="container footer-layout">
+      <div class="footer-logo">
+        <span class="logo-text-styled footer-logo-styled">
+          <span class="logo-stacked">
+            <span class="logo-bistro">bistro</span>
+            <span class="logo-bar">bar</span>
+          </span>
+          <span class="logo-main">two<span class="logo-k">K</span></span>
+        </span>
+        <span class="footer-logo-sub">DRINK & WESTERN CUISINE</span>
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html#home" class="footer-nav-link">HOME</a></li>
+        <li><a href="index.html#concept" class="footer-nav-link">CONCEPT</a></li>
+        <li><a href="index.html#points" class="footer-nav-link">FEATURES</a></li>
+        <li><a href="#" class="footer-nav-link active-link" id="link-course">COURSE Menu</a></li>
+        <li><a href="index.html#charter" class="footer-nav-link">CHARTER</a></li>
+        <li><a href="index.html#gallery" class="footer-nav-link">GALLERY</a></li>
+        <li><a href="index.html#info" class="footer-nav-link">ACCESS</a></li>
+      </ul>
+
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/bistro.bar.two.k/" target="_blank" rel="noopener" class="footer-social-btn" aria-label="Instagram">
+          <span style="font-weight: bold; font-size: 1.1rem;">📷</span>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        &copy; 2026 bistro bar two K. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
